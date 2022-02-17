@@ -1,10 +1,26 @@
 body {
   margin-top: 1px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 div#thankyou .modal-content {
   border-radius: 12px;
+}
+
+.divMain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.col {
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
 }
 
 div#ctaform .modal-header h5 {
@@ -12,7 +28,7 @@ div#ctaform .modal-header h5 {
 }
 
 div#ctaform .modal-header {
-  background: #5737BB;
+  background: #5737bb;
   color: #fff;
 }
 
@@ -23,10 +39,10 @@ div#ctaform button.close {
 }
 
 div#ctaform input.form-control {
-  background: #FFFFFF;
-  border: 1px solid #DFE3E6;
+  background: #ffffff;
+  border: 1px solid #dfe3e6;
   box-sizing: border-box;
-  border-radius: 6px !IMPORTANT;
+  border-radius: 6px !important;
   width: 100%;
   height: 40px;
   padding: 0px 10px;
@@ -36,7 +52,7 @@ div#ctaform input.form-control {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.011em;
-  color: #51585E;
+  color: #51585e;
   margin-top: 5px;
 }
 
@@ -56,7 +72,7 @@ div#ctaform .form-group {
 label.error,
 span#error_phone_no,
 span#error_phone_no2 {
-  color: red !IMPORTANT;
+  color: red !important;
   font-size: 13px !important;
   margin-top: -5px;
   display: table-row-group;
@@ -72,16 +88,16 @@ div#thankyou img {
 div#thankyou h5 {
   font-size: 22px;
   line-height: 30px;
-  color: #40464D;
+  color: #40464d;
 }
 
 div#thankyou p {
-  font-size: 18px !IMPORTANT;
+  font-size: 18px !important;
   margin: 20px 0px;
 }
 
 div#thankyou button.btn.btn-secondary {
-  background: #FDC735;
+  background: #fdc735;
   border-radius: 6px;
   border: none;
   color: #000;
@@ -96,16 +112,16 @@ div#thankyou .modal-body {
 }
 
 div#ctaform button.btn.btn-primary.submit-btn {
-  background: #FDC735 !important;
+  background: #fdc735 !important;
   border-radius: 6px !important;
   width: 100% !important;
   padding: 10px 0px !important;
   font-weight: 600;
   font-size: 16px !important;
-  line-height: 24px !IMPORTANT;
+  line-height: 24px !important;
   text-align: center;
-  letter-spacing: -0.02em !IMPORTANT;
-  color: #262B31 !IMPORTANT;
+  letter-spacing: -0.02em !important;
+  color: #262b31 !important;
   border: none;
   margin-bottom: 0px !important;
   margin-top: 10px !important;
@@ -120,7 +136,7 @@ div#ctaform button.btn.btn-primary.submit-btn {
 }
 
 #header a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -130,7 +146,7 @@ div#ctaform button.btn.btn-primary.submit-btn {
   width: 100%;
 }
 
-.sticky+.content {
+.sticky + .content {
   padding-top: 60px;
 }
 
@@ -143,7 +159,7 @@ div#ctaform button.btn.btn-primary.submit-btn {
 }
 
 #header #navbar {
-  background: #0D8877;
+  background: #0d8877;
 }
 
 #header #navbar.sticky {
@@ -179,14 +195,14 @@ header#header .navbar {
 }
 
 #header a.book-now-cta {
-  margin: 0 auto !IMPORTANT;
+  margin: 0 auto !important;
   width: auto;
   display: block;
-  border: 1px solid #fdc735 !IMPORTANT;
+  border: 1px solid #fdc735 !important;
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #fdc735 !important;
-  color: #000 !IMPORTANT;
+  color: #000 !important;
   font-weight: 600;
   font-size: 16px !important;
   line-height: 24px;
@@ -195,14 +211,14 @@ header#header .navbar {
 }
 
 #header a.mob-cta {
-  margin: 0 30px 0px auto !IMPORTANT;
+  margin: 0 30px 0px auto !important;
   width: auto;
   display: block;
-  border: 1px solid #fff !IMPORTANT;
+  border: 1px solid #fff !important;
   box-sizing: border-box;
   border-radius: 8px;
   background-color: transparent !important;
-  color: #ffffff !IMPORTANT;
+  color: #ffffff !important;
   font-weight: 600;
   font-size: 16px !important;
   line-height: 24px;
@@ -211,15 +227,20 @@ header#header .navbar {
 }
 
 #header .sticky a.mob-cta {
-  border: 1px solid #fdc735 !IMPORTANT;
+  border: 1px solid #fdc735 !important;
   color: #000 !important;
 }
 
 section#main-banner {
-  padding-top: 60px;    
-  background: -webkit-gradient(linear,left top,left bottom,from(#0d8877),color-stop(148.53%,#129992));
-  background: linear-gradient(
-180deg,#0d8877,#129992 148.53%);
+  padding-top: 60px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0d8877),
+    color-stop(148.53%, #129992)
+  );
+  background: linear-gradient(180deg, #0d8877, #129992 148.53%);
 }
 
 .banner-slider .container-fluid {
@@ -232,13 +253,13 @@ section#main-banner {
   color: #fff !important;
   font-size: 32px !important;
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
 .banner-content h1 strong {
   color: rgb(253, 199, 53) !important;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
@@ -275,7 +296,7 @@ div#request-call-back {
 
 #request-call-back h2 {
   margin-top: 0px;
-  color: #40464D;
+  color: #40464d;
   font-family: Inter;
   font-style: normal;
   font-weight: 800;
@@ -300,7 +321,7 @@ div#request-call-back input {
   background: #fff !important;
   margin-top: 5px !important;
   padding: 0px 10px !important;
-  width: 100% !IMPORTANT;
+  width: 100% !important;
   font-size: 14px !important;
   border: 1px solid #ccc;
   height: 42px;
@@ -325,16 +346,16 @@ div#request-call-back .form-group {
 }
 
 div#request-call-back button.btn.btn-primary.submit-btn {
-  background: #FDC735 !important;
+  background: #fdc735 !important;
   border-radius: 6px !important;
   width: 100% !important;
   padding: 10px 0px !important;
   font-weight: 600;
   font-size: 16px !important;
-  line-height: 24px !IMPORTANT;
+  line-height: 24px !important;
   text-align: center;
-  letter-spacing: -0.02em !IMPORTANT;
-  color: #262B31 !IMPORTANT;
+  letter-spacing: -0.02em !important;
+  color: #262b31 !important;
   border: none;
   margin-bottom: 0px !important;
   margin-top: 10px !important;
@@ -344,12 +365,32 @@ div#request-call-back button.btn.btn-primary.submit-btn {
 .banner-images .carousel-inner p {
   -webkit-backdrop-filter: blur(7px);
   backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, .7);
-  background: -o-radial-gradient(-2.08%, 102.08% 918.75%, at 6.25%, hsla(0, 0%, 100%, .49) 0, hsla(0, 0%, 100%, .07) 99.48%);
-  background: radial-gradient(102.08% 918.75% at -2.08%, at 6.25%, hsla(0, 0%, 100%, .49) 0, hsla(0, 0%, 100%, .07) 99.48%);
-  background: -o-radial-gradient(-2.08% 6.25%, 102.08% 918.75%, hsla(0, 0%, 100%, .49) 0, hsla(0, 0%, 100%, .07) 99.48%);
-  background: radial-gradient(102.08% 918.75% at -2.08% 6.25%, hsla(0, 0%, 100%, .49) 0, hsla(0, 0%, 100%, .07) 99.48%);
-  border: 1px solid hsla(0, 0%, 100%, .8);
+  background: rgba(0, 0, 0, 0.7);
+  background: -o-radial-gradient(
+    -2.08%,
+    102.08% 918.75%,
+    at 6.25%,
+    hsla(0, 0%, 100%, 0.49) 0,
+    hsla(0, 0%, 100%, 0.07) 99.48%
+  );
+  background: radial-gradient(
+    102.08% 918.75% at -2.08%,
+    at 6.25%,
+    hsla(0, 0%, 100%, 0.49) 0,
+    hsla(0, 0%, 100%, 0.07) 99.48%
+  );
+  background: -o-radial-gradient(
+    -2.08% 6.25%,
+    102.08% 918.75%,
+    hsla(0, 0%, 100%, 0.49) 0,
+    hsla(0, 0%, 100%, 0.07) 99.48%
+  );
+  background: radial-gradient(
+    102.08% 918.75% at -2.08% 6.25%,
+    hsla(0, 0%, 100%, 0.49) 0,
+    hsla(0, 0%, 100%, 0.07) 99.48%
+  );
+  border: 1px solid hsla(0, 0%, 100%, 0.8);
   border-left: 0;
   border-radius: 0 50px 50px 0;
   -webkit-box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
@@ -390,7 +431,11 @@ ol.ol li {
 }
 
 .banner-images .carousel-inner .carousel-item:after {
-  background: -o-linear-gradient(top, rgba(0, 3, 11, 0) 34.38%, rgba(0, 3, 11, .6) 93.75%);
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 3, 11, 0) 34.38%,
+    rgba(0, 3, 11, 0.6) 93.75%
+  );
   /* background: -webkit-gradient(linear,left top,left bottom,color-stop(34.38%,rgba(0,3,11,0)),color-stop(93.75%,rgba(0,3,11,.6))); */
   /* background: linear-gradient( 
 180deg,rgba(0,3,11,0) 34.38%,rgba(0,3,11,.6) 93.75%); */
@@ -402,8 +447,12 @@ ol.ol li {
   position: absolute;
   width: 100%;
   z-index: 2;
-  background: linear-gradient( 175.96deg, #00030B 19.14%, rgba(0, 3, 11, 0) 90.87%);
-  transform: rotate( -180deg);
+  background: linear-gradient(
+    175.96deg,
+    #00030b 19.14%,
+    rgba(0, 3, 11, 0) 90.87%
+  );
+  transform: rotate(-180deg);
 }
 
 #detail-good-hands {
@@ -413,7 +462,7 @@ ol.ol li {
 
 h2.title {
   margin-bottom: 20px !important;
-  color: #40464D;
+  color: #40464d;
   font-size: 35px;
   line-height: 48px;
   font-weight: 700;
@@ -437,10 +486,10 @@ section#detail-good-hands h2.title {
 section#detail-good-hands .item-block {
   /* margin-top: -65px; */
   padding: 20px 20px;
-  border: 1px solid #DFE3E6;
+  border: 1px solid #dfe3e6;
   box-sizing: border-box;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: #ffffff;
   /* height: 145px; */
   float: left;
   width: 25%;
@@ -460,7 +509,7 @@ section#detail-good-hands .item-block .right-content h3 {
   font-weight: bold;
   font-size: 28px;
   line-height: 36px;
-  color: #40464D;
+  color: #40464d;
   margin-bottom: 0px;
 }
 
@@ -486,10 +535,10 @@ section#why-surgiCare .item-blocks .left-icon {
 
 section#why-surgiCare .item-blocks {
   padding: 15px;
-  border: 1px solid #DFE3E6;
+  border: 1px solid #dfe3e6;
   box-sizing: border-box;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: #ffffff;
   float: left;
   width: 25%;
   margin: 8px;
@@ -519,7 +568,7 @@ section#why-surgiCare .item-blocks {
   border: 1px solid #dfe3e6;
   margin-top: 32px;
   width: 100%;
-  color: #40464D;
+  color: #40464d;
 }
 
 .why-choose-table th {
@@ -547,7 +596,7 @@ section#why-surgiCare .item-blocks {
 }
 
 .why-choose-table th:nth-child(2) {
-  background-color: rgba(0, 35, 140, .1);
+  background-color: rgba(0, 35, 140, 0.1);
   color: #00238c;
 }
 
@@ -597,21 +646,21 @@ section#how-it-works .item-blocks img {
 }
 
 section#how-it-works h3 {
-  color: #40464D80;
+  color: #40464d80;
   font-size: 20px;
   line-height: 28px;
 }
 
 section#how-it-works .item-blocks h4 {
-  color: #8897A2;
+  color: #8897a2;
   font-size: 20px;
-  Line-height: 28px;
+  line-height: 28px;
   margin-bottom: 10px;
 }
 
 section#how-it-works .item-blocks h3 {
   font-size: 22px;
-  color: #40464D;
+  color: #40464d;
   line-height: 32px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -619,7 +668,7 @@ section#how-it-works .item-blocks h3 {
 
 section#how-it-works .item-blocks p {
   font-size: 18px;
-  color: #40464D;
+  color: #40464d;
   line-height: 26px;
   margin-bottom: 0px;
 }
@@ -645,13 +694,13 @@ section#what-are-piles div#services .card {
 
 section#what-are-piles div#services .card .card-header {
   background: #fff !important;
-  padding: 10px 15px
+  padding: 10px 15px;
 }
 
 section#what-are-piles div#services .card {
   margin-top: 10px;
   margin-bottom: 0px;
-  border: 1px solid #DFE3E6 !important;
+  border: 1px solid #dfe3e6 !important;
   box-sizing: border-box;
   box-shadow: 0px 0px 8px rgb(0 0 0 / 8%) !important;
   border-radius: 8px;
@@ -672,7 +721,7 @@ section#what-are-piles div#services .card .card-header a.btn.btn-header-link {
 }
 
 section#what-are-piles div#services .card .card-body ul li::marker {
-  color: #8897A2;
+  color: #8897a2;
   font-size: 20px;
 }
 
@@ -683,24 +732,29 @@ section#what-are-piles div#services .card .card-body ul {
 
 section#what-are-piles div#services .card .card-body p,
 section#what-are-piles div#services .card .card-body li {
-  font-size: 16px !IMPORTANT;
+  font-size: 16px !important;
   line-height: 21px;
   letter-spacing: -0.011em;
-  color: #40464D !IMPORTANT;
+  color: #40464d !important;
   font-style: normal;
   padding-bottom: 15px;
   margin-bottom: 0px;
   list-style: disc;
 }
 
-section#what-are-piles div#services .card .card-header a.btn.btn-header-link img {
+section#what-are-piles
+  div#services
+  .card
+  .card-header
+  a.btn.btn-header-link
+  img {
   float: right;
   margin-top: 10px;
-  -webkit-transform: rotate( 0deg);
+  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
-  transform: rotate( 180deg);
+  transform: rotate(180deg);
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -708,8 +762,13 @@ section#what-are-piles div#services .card .card-header a.btn.btn-header-link img
   transform-origin: 50% 50%;
 }
 
-section#what-are-piles div#services .card .card-header a.btn.btn-header-link.collapsed img {
-  -webkit-transform: rotate( 0deg);
+section#what-are-piles
+  div#services
+  .card
+  .card-header
+  a.btn.btn-header-link.collapsed
+  img {
+  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -722,7 +781,7 @@ section#what-are-piles div#services .card .card-header a.btn.btn-header-link.col
 }
 
 section#faq .card .card-body ul li::marker {
-  color: #8897A2;
+  color: #8897a2;
   font-size: 20px;
 }
 
@@ -733,10 +792,10 @@ section#faq .card .card-body ul {
 
 section#faq .card .card-body p,
 section#faq .card .card-body li {
-  font-size: 16px !IMPORTANT;
+  font-size: 16px !important;
   line-height: 21px;
   letter-spacing: -0.011em;
-  color: #40464D !IMPORTANT;
+  color: #40464d !important;
   font-style: normal;
   padding-bottom: 15px;
   margin-bottom: 0px;
@@ -746,11 +805,11 @@ section#faq .card .card-body li {
 section#faq .card .card-header a.btn.btn-header-link img {
   float: right;
   margin-top: 10px;
-  -webkit-transform: rotate( 0deg);
+  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
-  transform: rotate( 180deg);
+  transform: rotate(180deg);
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -759,7 +818,7 @@ section#faq .card .card-header a.btn.btn-header-link img {
 }
 
 section#faq .card .card-header a.btn.btn-header-link.collapsed img {
-  -webkit-transform: rotate( 0deg);
+  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -774,7 +833,7 @@ section#faq .card .card-header a.btn.btn-header-link.collapsed img {
 section#faq .card .card-header {
   background: #fff !important;
   padding: 10px 15px;
-  border: none !IMPORTANT;
+  border: none !important;
 }
 
 #faq .card {
@@ -794,7 +853,7 @@ section#faq .card .card-header {
 }
 
 #faq .card-body {
-  background: #F6F7F9;
+  background: #f6f7f9;
 }
 
 #faq a.btn.btn-header-link:after {
@@ -829,7 +888,7 @@ section#faq {
 #footer-cta {
   padding: 60px 0px !important;
   margin: 0px !important;
-  background: #00238C !important;
+  background: #00238c !important;
 }
 
 section#footer-cta h2.title {
@@ -857,14 +916,14 @@ section#footer-cta h2.title {
 
 #footer-cta ul li:first-child a {
   list-style: none;
-  margin: 0 auto !IMPORTANT;
+  margin: 0 auto !important;
   width: auto;
   display: block;
-  border: 1px solid #fff !IMPORTANT;
+  border: 1px solid #fff !important;
   box-sizing: border-box;
   border-radius: 8px;
   background-color: transparent !important;
-  color: #ffffff !IMPORTANT;
+  color: #ffffff !important;
   font-weight: 600;
   font-size: 16px !important;
   line-height: 24px;
@@ -874,14 +933,14 @@ section#footer-cta h2.title {
 }
 
 #footer-cta ul li:last-child a {
-  margin: 0 auto !IMPORTANT;
+  margin: 0 auto !important;
   width: auto;
   display: block;
-  border: 1px solid #fdc735 !IMPORTANT;
+  border: 1px solid #fdc735 !important;
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #fdc735 !important;
-  color: #000 !IMPORTANT;
+  color: #000 !important;
   font-weight: 600;
   font-size: 16px !important;
   line-height: 24px;
@@ -894,7 +953,7 @@ a:hover {
 }
 
 #footer {
-  background: #2B2A2D !important;
+  background: #2b2a2d !important;
   padding: 30px 0px !important;
   text-align: left;
 }
@@ -929,8 +988,8 @@ a:hover {
   padding: 0px 20px;
   width: 100%;
   margin-top: 15px;
-  border: 1px solid #FDC735;
-  color: #FDC735;
+  border: 1px solid #fdc735;
+  color: #fdc735;
   text-align: center;
   line-height: 40px;
 }
@@ -939,7 +998,7 @@ a:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #DFE3E6;
+  color: #dfe3e6;
   font-family: Inter;
   margin-bottom: 0px;
 }
@@ -957,14 +1016,14 @@ a:hover {
 }
 
 #our-doctors .owl-carousel p a:hover {
-  background: #FDC735;
+  background: #fdc735;
   color: #000;
 }
 
 #our-doctors .owl-nav .owl-next {
   background: url(../images/doc-arrow.svg) !important;
   background-color: transparent !important;
-  background-size: 100% !IMPORTANT;
+  background-size: 100% !important;
   width: 70px !important;
   height: 70px !important;
   padding: 0px !important;
@@ -998,26 +1057,26 @@ a:hover {
   background-position: 90% 90%;
   background-size: 30px;
   height: 250px;
-  background-color: #E0F0FF;
+  background-color: #e0f0ff;
   border-radius: 9px;
   padding: 30px 30px;
   font-size: 16px;
   line-height: 21px;
-  color: #4F585E;
+  color: #4f585e;
 }
 
 .our-customers .owl-stage h4 {
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  color: #40464D;
+  color: #40464d;
 }
 
 .our-customers .owl-stage h5 {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #4F585E;
+  color: #4f585e;
 }
 
 .our-customers h3 {
@@ -1042,13 +1101,13 @@ a:hover {
 }
 
 .our-customers button.owl-prev {
-  display: none !IMPORTANT;
+  display: none !important;
 }
 
 .our-customers .owl-nav .owl-next {
   background: url(../images/doc-arrow.svg) !important;
   background-color: transparent !important;
-  background-size: 100% !IMPORTANT;
+  background-size: 100% !important;
   width: 70px !important;
   height: 70px !important;
   padding: 0px !important;
@@ -1062,572 +1121,576 @@ a:hover {
   display: none;
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   #header a.book-now-cta {
-      display: none;
+    display: none;
   }
   .banner-images .carousel-inner .carousel-item {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   #header a.mob-cta {
-      margin-right: 0px !important;
-      padding: 5px 10px;
-      margin-top: 5px !IMPORTANT;
-      font-size: 15px !important;
+    margin-right: 0px !important;
+    padding: 5px 10px;
+    margin-top: 5px !important;
+    font-size: 15px !important;
   }
   section#main-banner {
-      padding-top: 10px;
-      background: #0d8877;
-      position: relative;
+    padding-top: 10px;
+    background: #0d8877;
+    position: relative;
   }
   .banner-images .carousel-inner {
-      width: 95%;
+    width: 95%;
   }
   .banner-images .carousel-inner p {
-      margin-top: -90px;
-      font-size: 16px;
+    margin-top: -90px;
+    font-size: 16px;
   }
   .banner-images .carousel-indicators {
-      bottom: 0px;
+    bottom: 0px;
   }
   .banner-images .carousel-inner .carousel-item:after {
-      background: linear-gradient( 175.96deg, #00030B 0.14%, rgba(0, 3, 11, 0) 90.87%);
-      transform: rotate( -180deg);
+    background: linear-gradient(
+      175.96deg,
+      #00030b 0.14%,
+      rgba(0, 3, 11, 0) 90.87%
+    );
+    transform: rotate(-180deg);
   }
   .banner-content {
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .banner-content h1 {
-      width: 100% !important;
-      float: right;
-      color: #fff !important;
-      font-style: normal;
-      font-weight: 600 !IMPORTANT;
-      font-size: 24px !important;
-      line-height: 30px !important;
+    width: 100% !important;
+    float: right;
+    color: #fff !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 30px !important;
   }
   .banner-content ul li {
-      background-repeat: no-repeat;
-      background-size: 5%;
-      background-position: left;
-      padding-left: 30px;
-      padding: 0px 0px 5px 30px;
-      line-height: 22px;
-      font-size: 14px;
-      background-position: left 5px;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: left;
+    padding-left: 30px;
+    padding: 0px 0px 5px 30px;
+    line-height: 22px;
+    font-size: 14px;
+    background-position: left 5px;
   }
   .banner-content ul {
-      display: inline-block;
+    display: inline-block;
   }
   #request-call-back h2 {
-      width: 80%;
-      font-weight: 800 !IMPORTANT;
+    width: 80%;
+    font-weight: 800 !important;
   }
   div#request-call-back .form-group:nth-of-type(1),
   div#request-call-back .form-group:nth-of-type(2) {
-      float: left;
-      width: 100%;
+    float: left;
+    width: 100%;
   }
   .counter-list {
-      -webkit-transform: translateY(0px);
-      -ms-transform: translateY(0px);
-      overflow-x: scroll;
-      -webkit-overflow-scrolling: touch;
-      display: -webkit-box;
-      width: 100% !important;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: -webkit-box;
+    width: 100% !important;
   }
   section#main-banner:after {
-      content: "";
-      background: #f9faff;
-      position: absolute;
-      z-index: 0;
-      bottom: 0px;
-      height: 310px;
-      width: 100%;
-      left: 0px;
+    content: "";
+    background: #f9faff;
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    height: 310px;
+    width: 100%;
+    left: 0px;
   }
   div#request-call-back {
-      z-index: 9;
-      position: relative;
+    z-index: 9;
+    position: relative;
   }
   #detail-good-hands {
-      background: #f9faff;
-      padding-bottom: 30px;
+    background: #f9faff;
+    padding-bottom: 30px;
   }
   section#detail-good-hands h2.title {
-      display: block;
+    display: block;
   }
   h2.title {
-      color: #40464D;
-      font-size: 20px;
-      line-height: 30px;
-      font-weight: 700 !IMPORTANT;
-      margin-bottom: 10px;
+    color: #40464d;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700 !important;
+    margin-bottom: 10px;
   }
   section#detail-good-hands .item-block {
-      width: 80%;
-      padding: 10px;
-      background: #FFFFFF;
-      border: 1px solid #DFE3E6 !IMPORTANT;
-      box-sizing: border-box;
-      border-radius: 8px;
-      margin-left: 0px;
-      display: block;
-      float: unset;
+    width: 80%;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #dfe3e6 !important;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 0px;
+    display: block;
+    float: unset;
   }
   section#detail-good-hands .col-md-12 {
-      padding-right: 0px;
+    padding-right: 0px;
   }
   .counter-list::-webkit-scrollbar {
-      display: none;
+    display: none;
   }
   section#detail-good-hands .item-block .left-icon img {
-      width: 100%;
+    width: 100%;
   }
   section#detail-good-hands .item-block .left-icon {
-      width: 50px;
-      float: left;
-      margin-right: 10px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
   }
   section#detail-good-hands .item-block .right-content h3 {
-      font-weight: bold;
-      font-size: 15px;
-      line-height: 14px !important;
-      color: #40464D;
-      margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px !important;
+    color: #40464d;
+    margin-top: 5px;
   }
   section#detail-good-hands .item-block .right-content p {
-      font-size: 12px;
-      line-height: 14px;
-      margin-top: 2px;
-      color: #40464D;
-      width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 2px;
+    color: #40464d;
+    width: 100%;
   }
   section#detail-good-hands .item-block .right-content {
-      width: 75%;
-      float: right;
+    width: 75%;
+    float: right;
   }
   section#why-surgiCare {
-      padding: 30px 0px;
+    padding: 30px 0px;
   }
   section#why-surgiCare .item-blocks {
-      padding: 5px;
-      border: 1px solid #DFE3E6;
-      box-sizing: border-box;
-      border-radius: 8px;
-      background: #FFFFFF;
-      float: left;
-      width: 25%;
-      margin: 0px 0px 10px 0px;
-      width: -webkit-calc(100% - 0px);
-      width: calc(100% - 0px);
+    padding: 5px;
+    border: 1px solid #dfe3e6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #ffffff;
+    float: left;
+    width: 25%;
+    margin: 0px 0px 10px 0px;
+    width: -webkit-calc(100% - 0px);
+    width: calc(100% - 0px);
   }
   section#why-surgiCare .item-blocks .left-icon {
-      width: 50px;
-      float: left;
-      margin-right: 0px;
+    width: 50px;
+    float: left;
+    margin-right: 0px;
   }
   section#why-surgiCare .item-blocks .left-icon img {
-      width: 100%;
+    width: 100%;
   }
   section#why-surgiCare .item-blocks .right-content {
-      float: right;
-      width: 83%;
+    float: right;
+    width: 83%;
   }
   section#why-surgiCare .item-blocks .right-content br {
-      display: none;
+    display: none;
   }
   .why-surgiCare-list h3 {
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 24px;
-      color: #40464D;
-      padding: 5px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #40464d;
+    padding: 5px 0px;
   }
   div#request-call-back {
-      background: #fff;
-      padding: 0px;
-      border-radius: 0px;
-      margin-bottom: 0px;
-      margin-top: 20px;
-      padding: 20px;
-      box-shadow: 0px 2px 12px 2px rgb(0 0 0 / 15%);
-      border-radius: 12px;
+    background: #fff;
+    padding: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 2px 12px 2px rgb(0 0 0 / 15%);
+    border-radius: 12px;
   }
   .why-choose-table td:first-child,
   .why-choose-table th:first-child {
-      width: 53%;
+    width: 53%;
   }
   .why-choose-table td:nth-child(2),
   .why-choose-table th:nth-child(2) {
-      width: 20%;
+    width: 20%;
   }
   .why-choose-table td:nth-child(3),
   .why-choose-table th:nth-child(3) {
-      width: 27%;
+    width: 27%;
   }
   .why-choose-table td,
   .why-choose-table th {
-      padding: 10px;
-      vertical-align: middle;
+    padding: 10px;
+    vertical-align: middle;
   }
   .why-choose-table td,
   .why-choose-table th {
-      padding: 10px 5px;
+    padding: 10px 5px;
   }
   .why-choose-table td,
   .why-choose-table th {
-      font-size: 12px;
+    font-size: 12px;
   }
   table.why-choose-table img {
-      height: 18px;
+    height: 18px;
   }
   .why-choose-table td {
-      border-left: 1px solid transparent;
-      border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
   }
   section#why-surgiCare .mobile-space {
-      padding: 0px;
+    padding: 0px;
   }
   .why-choose-table td {
-      height: auto;
+    height: auto;
   }
   section#how-it-works {
-      background: #f9faff;
-      padding: 30px 0px;
-      margin-top: 0px;
+    background: #f9faff;
+    padding: 30px 0px;
+    margin-top: 0px;
   }
   .works-list {
-      display: grid;
+    display: grid;
   }
   section#how-it-works h3 {
-      color: #40464D80;
-      font-size: 14px;
-      line-height: 18px;
-      margin-bottom: 10px;
+    color: #40464d80;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
   }
   section#how-it-works .item-blocks {
-      width: -webkit-calc(100% - 0px);
-      width: calc(100% - 0px);
-      margin: 0 0px 10px 0px;
+    width: -webkit-calc(100% - 0px);
+    width: calc(100% - 0px);
+    margin: 0 0px 10px 0px;
   }
   section#how-it-works .item-blocks img {
-      float: left;
-      width: 30%;
-      margin-right: 5px;
-      margin-bottom: 0px;
+    float: left;
+    width: 30%;
+    margin-right: 5px;
+    margin-bottom: 0px;
   }
   section#how-it-works .item-blocks h4,
   section#how-it-works .item-blocks h3,
   section#how-it-works .item-blocks p {
-      width: 68%;
-      float: right;
+    width: 68%;
+    float: right;
   }
   section#how-it-works h4 {
-      color: #8897A2;
-      font-size: 12px !IMPORTANT;
-      Line-height: 18px !important;
-      margin-bottom: 4px !important;
+    color: #8897a2;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    margin-bottom: 4px !important;
   }
   section#how-it-works h3 {
-      font-size: 14px !important;
-      color: #40464D;
-      line-height: 22px !important;
-      margin: 0px !important;
+    font-size: 14px !important;
+    color: #40464d;
+    line-height: 22px !important;
+    margin: 0px !important;
   }
   section#how-it-works p {
-      font-size: 12px !important;
-      color: #40464D;
-      line-height: 18px !important;
+    font-size: 12px !important;
+    color: #40464d;
+    line-height: 18px !important;
   }
   section#how-it-works .item-blocks h3 br {
-      display: none;
+    display: none;
   }
   section#what-are-piles {
-      padding: 30px 0px;
+    padding: 30px 0px;
   }
   section#what-are-piles .services-image img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
   }
   section#what-are-piles div#services {
-      margin-top: 20px;
+    margin-top: 20px;
   }
   section#what-are-piles p {
-      font-size: 14px;
+    font-size: 14px;
   }
   section#what-are-piles div#services .card .card-header a.btn.btn-header-link {
-      font-size: 15px !important;
+    font-size: 15px !important;
   }
   section#what-are-piles div#services .card .card-body p,
   section#what-are-piles div#services .card .card-body li {
-      font-size: 14px !IMPORTANT;
-      line-height: 18px;
+    font-size: 14px !important;
+    line-height: 18px;
   }
   #our-doctors {
-      background: #2d2d2d;
-      padding: 30px 0px;
+    background: #2d2d2d;
+    padding: 30px 0px;
   }
   #our-doctors .owl-carousel p strong {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 18px;
-      color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
   }
   #our-doctors .owl-carousel p {
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 18px;
-      color: #DFE3E6;
-      font-family: Inter;
-      margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #dfe3e6;
+    font-family: Inter;
+    margin-bottom: 0px;
   }
   #our-doctors .owl-carousel p a {
-      display: block;
-      /* background: #DDDDDD; */
-      border-radius: 6px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 18px;
-      padding: 8px 10px;
-      width: 100%;
-      margin-top: 15px;
-      text-align: center;
+    display: block;
+    /* background: #DDDDDD; */
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px 10px;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
   }
   #our-doctors .owl-nav {
-      display: block !important;
-      float: right;
-      position: relative;
-      position: absolute;
-      top: 70px;
-      right: 0px;
-      z-index: 99999;
+    display: block !important;
+    float: right;
+    position: relative;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 99999;
   }
   #our-doctors .owl-nav .owl-next {
-      width: 50px !important;
-      height: 50px !important;
-      padding: 0px !important;
-      margin-right: -22px;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0px !important;
+    margin-right: -22px;
   }
   #our-customers {
-      background: #f9faff;
-      padding: 30px 0px;
+    background: #f9faff;
+    padding: 30px 0px;
   }
   .our-customers h3 {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 18px;
-      color: rgba(45, 45, 45, 0.5);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(45, 45, 45, 0.5);
   }
   .our-customers .owl-stage h4 {
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 20px;
-      color: #40464D;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #40464d;
   }
   .our-customers .owl-nav .owl-next {
-      width: 50px !important;
-      height: 50px !important;
-      padding: 0px !important;
-      margin-right: 18px !important;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0px !important;
+    margin-right: 18px !important;
   }
   .our-customers .owl-stage p {
-      padding: 15px;
-      height: 200px;
-      font-size: 13px;
+    padding: 15px;
+    height: 200px;
+    font-size: 13px;
   }
   section#faq {
-      padding: 30px 0px;
+    padding: 30px 0px;
   }
   section#faq .card .card-header {
-      background: #fff !important;
-      padding: 0px;
-      border: none !IMPORTANT;
+    background: #fff !important;
+    padding: 0px;
+    border: none !important;
   }
   #faq a.btn.btn-header-link {
-      display: block;
-      text-align: left;
-      font-size: 14px;
-      font-weight: 500;
-      width: 100%;
-      padding: 0px 20px;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    padding: 0px 20px;
   }
   section#faq .card .card-header a.btn.btn-header-link img {
-      margin-top: 0px;
+    margin-top: 0px;
   }
   #faq a.btn.btn-header-link:after {
-      top: 10px;
+    top: 10px;
   }
   section#faq .card .card-header {
-      background: #fff !important;
-      padding: 5px 0px;
-      border: none !IMPORTANT;
+    background: #fff !important;
+    padding: 5px 0px;
+    border: none !important;
   }
   section#faq .card .card-header a.btn.btn-header-link.collapsed img {
-      margin-right: -10px;
+    margin-right: -10px;
   }
   section#faq .card .card-header a.btn.btn-header-link.collapsed img,
   section#faq .card .card-header a.btn.btn-header-link img {
-      margin-right: 10px;
-      width: 10px;
-      position: absolute;
-      right: 0px;
-      top: 18px;
+    margin-right: 10px;
+    width: 10px;
+    position: absolute;
+    right: 0px;
+    top: 18px;
   }
   #footer-cta ul {
-      list-style: none;
-      margin: 20px 0px 0px 0px;
-      text-align: right;
-      width: 100% !important;
-      float: right;
-      padding: 0px;
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+    text-align: right;
+    width: 100% !important;
+    float: right;
+    padding: 0px;
   }
   #footer-cta ul li:first-child a {
-      font-size: 0px !important;
-      height: 48px;
-      padding: 11px 10px;
+    font-size: 0px !important;
+    height: 48px;
+    padding: 11px 10px;
   }
   #footer-cta ul li:first-child a:after {
-      content: "Call Us";
-      font-size: 15px !important;
+    content: "Call Us";
+    font-size: 15px !important;
   }
   #footer-cta ul li:first-child {
-      margin-right: 10px;
-      width: 27%;
+    margin-right: 10px;
+    width: 27%;
   }
   #footer-cta ul li:last-child {
-      width: 68%;
+    width: 68%;
   }
   #footer-cta ul li:last-child a {
-      padding: 11px 10px;
-      font-size: 15px !important;
+    padding: 11px 10px;
+    font-size: 15px !important;
   }
   #footer-cta {
-      padding: 30px 0px !important;
+    padding: 30px 0px !important;
   }
   #footer p {
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 24px;
-      color: #DFE3E6;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #dfe3e6;
   }
   #footer {
-      padding: 30px 0px 100px 0px!important;
+    padding: 30px 0px 100px 0px !important;
   }
   .footer-fixed-menu {
-      position: fixed;
-      bottom: -1px;
-      z-index: 999;
-      background: #ffffff !IMPORTANT;
-      padding: 10px !important;
-      width: 100%;
-      box-shadow: 0px -4px 12px rgb(0 0 0 / 15%);
+    position: fixed;
+    bottom: -1px;
+    z-index: 999;
+    background: #ffffff !important;
+    padding: 10px !important;
+    width: 100%;
+    box-shadow: 0px -4px 12px rgb(0 0 0 / 15%);
   }
   .footer-fixed-menu {
-      display: block;
+    display: block;
   }
   .footer-fixed-menu ul {
-      margin: 0px;
-      list-style: none;
-      padding: 0px;
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
   }
   .footer-fixed-menu ul li:first-child {
-      width: 30%;
-      margin: 0px;
-      padding: 12px 0px !important;
-      font-size: 16px !IMPORTANT;
-      border: 1px solid #FDC735 !IMPORTANT;
-      box-sizing: border-box;
-      border-radius: 6px;
-      background: transparent !important;
-      color: #40464D !important;
-      font-family: Inter !important;
-      text-align: center;
-      font-weight: 600;
-      float: left;
+    width: 30%;
+    margin: 0px;
+    padding: 12px 0px !important;
+    font-size: 16px !important;
+    border: 1px solid #fdc735 !important;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: transparent !important;
+    color: #40464d !important;
+    font-family: Inter !important;
+    text-align: center;
+    font-weight: 600;
+    float: left;
   }
   .footer-fixed-menu ul li:first-child a {
-      color: #40464D !important;
+    color: #40464d !important;
   }
   .footer-fixed-menu ul li:last-child a {
-      color: #262B31;
-      font-weight: 600;
+    color: #262b31;
+    font-weight: 600;
   }
   .footer-fixed-menu ul li:last-child {
-      width: 65%;
-      float: right;
-      text-align: center;
-      margin: 0px;
-      padding: 12px 0px !important;
-      font-size: 16px !IMPORTANT;
-      border: 1px solid #FDC735 !IMPORTANT;
-      box-sizing: border-box;
-      border-radius: 6px;
-      background: #FDC735 !important;
-      color: #262B31;
+    width: 65%;
+    float: right;
+    text-align: center;
+    margin: 0px;
+    padding: 12px 0px !important;
+    font-size: 16px !important;
+    border: 1px solid #fdc735 !important;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fdc735 !important;
+    color: #262b31;
   }
   .why-choose-table {
-      margin-top: 20px;
+    margin-top: 20px;
   }
   html {
-      overflow-x: hidden;
-      margin: 0px;
-      width: 100%;
-      padding: 0px;
-      display: revert;
+    overflow-x: hidden;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    display: revert;
   }
   /* Hide scrollbar for Chrome, Safari and Opera */
   html::-webkit-scrollbar {
-      display: none;
+    display: none;
   }
   /* Hide scrollbar for IE, Edge and Firefox */
   html {
-      -ms-overflow-style: none;
-      /* IE and Edge */
-      scrollbar-width: none;
-      /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
-   ::-webkit-scrollbar {
-      display: none;
+  ::-webkit-scrollbar {
+    display: none;
   }
-   ::-webkit-scrollbar-button {
-      display: none;
-  }
-  body {
-      -ms-overflow-style: none;
+  ::-webkit-scrollbar-button {
+    display: none;
   }
   body {
-      margin-top: 1px;
+    -ms-overflow-style: none;
+  }
+  body {
+    margin-top: 1px;
   }
   div#thankyou .modal-body {
-      padding: 20px;
+    padding: 20px;
   }
   div#thankyou .modal-content {
-      width: 95%;
-      margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
   }
   div#ctaform .modal-content {
-      width: 95%;
-      margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
   }
   #our-doctors .owl-carousel p span {
-      font-size: 12px;
-      line-height: 16px !important;
-      height: 35px;
-      display: block;
-      margin-top: 5px;
-      font-weight: normal;
+    font-size: 12px;
+    line-height: 16px !important;
+    height: 35px;
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
   }
 }
 
 field {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .some-class {
@@ -1642,10 +1705,10 @@ label {
   padding: 0px 1em 0px 8px;
 }
 
-input[type=radio],
+input[type="radio"],
 input.radio {
   display: inline;
   -ms-transform: scale(0.4); /* IE 9 */
-    -webkit-transform: scale(0.4); /* Chrome, Safari, Opera */
-    transform: scale(0.4);
+  -webkit-transform: scale(0.4); /* Chrome, Safari, Opera */
+  transform: scale(0.4);
 }
